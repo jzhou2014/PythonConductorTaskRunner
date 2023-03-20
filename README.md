@@ -1,7 +1,7 @@
 # Running First Worker
 In this project, we will explore how you can get your first worker task running.
 
-First clone the project from [here.](https://gitee.unigroupinc.com/learning-and-development/workflow-python) and import to PyCharm.
+First clone the project from [here.](https://github.com/jzhou2014/PythonConductorTaskRunner) and import to PyCharm.
 
 Worker tasks are implemented by your application(s) and run in a separate environment from Conductor. The worker tasks can be implemented in any language. These tasks talk to the Conductor server via REST/gRPC to poll for tasks and update their status after execution.
 In our example, we will be implementing a Python-based worker by leveraging the [Python Client SDK](https://orkes.io/content/docs/how-tos/sdks/conductor-python/main).
