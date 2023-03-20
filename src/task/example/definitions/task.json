@@ -1,0 +1,13 @@
+[
+    {
+        "name": "python_task_example",
+        "description": "Python task example",
+        "retryCount": 3,
+        "retryLogic": "FIXED",
+        "retryDelaySeconds": 10,
+        "timeoutSeconds": 300,
+        "timeoutPolicy": "TIME_OUT_WF",
+        "responseTimeoutSeconds": 180,
+        "ownerEmail": "example@example.com"
+    }
+]

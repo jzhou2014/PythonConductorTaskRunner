@@ -1,0 +1,24 @@
+{
+    "createTime": 1634021619147,
+    "updateTime": 1630694890267,
+    "name": "workflow_with_python_task_example",
+    "description": "Workflow with Python Task example",
+    "version": 1,
+    "tasks": [
+        {
+            "name": "python_task_example",
+            "taskReferenceName": "python_task_example_ref_1",
+            "inputParameters": {},
+            "type": "SIMPLE"
+        }
+    ],
+    "inputParameters": [],
+    "outputParameters": {
+        "workerOutput": "${python_task_example_ref_1.output}"
+    },
+    "schemaVersion": 2,
+    "restartable": true,
+    "ownerEmail": "example@example.com",
+    "timeoutPolicy": "ALERT_ONLY",
+    "timeoutSeconds": 0
+}

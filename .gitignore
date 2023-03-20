@@ -1,3 +1,5 @@
+#IntelliJ
+.idea/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -54,7 +56,8 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
+#logs
+logs/
 # Django stuff:
 *.log
 local_settings.py
